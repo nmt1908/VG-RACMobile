@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">  <!-- đẩy xa mép dialog -->
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+        android:backgroundTint="#F2EEEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">  <!-- padding trong nội dung -->
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn thao tác chụp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#111827"
+            android:paddingBottom="4dp"/>
+
+        <!-- Subtitle -->
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vui lòng chọn loại cần chụp để hệ thống xử lý đúng"
+            android:textSize="20dp"
+            android:textColor="#6B7280"
+            android:paddingBottom="16dp"/>
+
+        <!-- 2 buttons row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPlate"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="Biển số"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/primaryColor"
+                app:icon="@drawable/baseline_directions_car_24"
+                app:iconTint="@android:color/white"
+                app:iconPadding="8dp"
+                app:iconSize="24dp"
+                app:cornerRadius="14dp" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="1dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOdo"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="Odo"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:textColor="#111827"
+                android:backgroundTint="#F3F4F6"
+                app:strokeColor="#E5E7EB"
+                app:strokeWidth="1dp"
+                app:icon="@drawable/baseline_speed_24"
+                app:iconTint="#111827"
+                app:iconPadding="8dp"
+                app:iconSize="24dp"
+                app:cornerRadius="14dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="#E5E7EB" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hủy bỏ"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+    </FrameLayout>

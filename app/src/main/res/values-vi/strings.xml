@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_language_title">Chọn ngôn ngữ</string>
+    <string name="lang_vietnamese">Tiếng Việt</string>
+    <string name="lang_english">English</string>
+    <string name="app_name">Quản lý Ra Vào Cổng</string>
+    <string name="plate_hint">Biển số xe</string>
+    <string name="odo_hint">Số KM</string>
+    <string name="scanqrcode">Quét QR của bạn</string>
+    <string name="gate_front">Cổng trước</string>
+    <string name="gate_back">Cổng sau</string>
+    <string name="select_gate_title">Chọn cổng</string>
+    <string name="detail_trip">CHI TIẾT CHUYẾN ĐI</string>
+    <string name="employee_list">Danh sách nhân viên</string>
+    <string name="infomation_vehicle">Thông tin phương tiện</string>
+    <string name="id">"Mã đơn: "</string>
+    <string name="departure_date">"Ngày khởi hành: "</string>
+    <string name="quantity">"Số lượng: "</string>
+    <string name="face_recognition">Nhận diện khuôn mặt</string>
+    <string name="outbound">Chuyến đi</string>
+    <string name="return_">Chuyến về</string>
+    <string name="security_hint">Bảo vệ xác nhận</string>
+    <string name="car_list">Danh sách phương tiện</string>
+    <string name="agree">Đồng ý</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="question1">Bạn có chắc chắn muốn xác nhận không?</string>
+    <string name="titleDialog1">Vui lòng xác nhận để tiếp tục</string>
+    <string name="success">Thành công</string>
+    <string name="infomation_save_sucessfully">Thông tin đã được lưu thành công trên hệ thống !</string>
+    <string name="close">Đóng</string>
+    <string name="recognizing">Đang nhận diện khuôn mặt</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="hide_car_list">Ẩn danh sách xe</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RestrictAcessControl" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="Theme.RestrictAccessControl" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="toolbarStyle">@style/Widget.Material3.Toolbar</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.SmallRound" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="Theme.RestrictAcessControl" parent="Base.Theme.RestrictAcessControl" />
+    <style name="TabTextBold" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ToolbarTitleLarge">
+        <item name="android:textSize">27dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="RoundAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Rounded20</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Rounded20" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="Widget.App.CircularProgressIndicator.Large" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorSize">56dp</item>
+        <item name="indicatorInset">0dp</item>
+        <item name="indicatorDirectionCircular">clockwise</item>
+        <item name="trackThickness">6dp</item>
+        <item name="indicatorColor">@color/primaryColor</item>
+    </style>
+</resources>

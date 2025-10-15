@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_language_title">Select language</string>
+    <string name="lang_vietnamese">Vietnamese</string>
+    <string name="lang_english">English</string>
+    <string name="app_name">Access Control</string>
+    <string name="plate_hint">Car Plate</string>
+    <string name="odo_hint">Odo Number</string>
+    <string name="scanqrcode">Scan your QR code</string>
+    <string name="gate_front">Front Gate</string>
+    <string name="gate_back">Back Gate</string>
+    <string name="select_gate_title">Select Gate</string>
+    <string name="detail_trip">DETAIL TRIP</string>
+    <string name="employee_list">Employee List</string>
+    <string name="infomation_vehicle">Infomation Vehicle</string>
+    <string name="id">"ID: "</string>
+    <string name="departure_date">"Departure Date: "</string>
+    <string name="quantity">"Quantity: "</string>
+    <string name="face_recognition">Face Recognition</string>
+    <string name="outbound">Outbound</string>
+    <string name="return_">Return</string>
+    <string name="security_hint">Security empno</string>
+    <string name="car_list">List car</string>
+    <string name="agree">Agree</string>
+    <string name="cancel">Cancel</string>
+    <string name="question1">Are you sure you want to confirm?</string>
+    <string name="titleDialog1">Please confirm to proceed</string>
+    <string name="success">Succesfully</string>
+    <string name="infomation_save_sucessfully">Infomation saved successfully!</string>
+    <string name="close">Close</string>
+    <string name="recognizing">Recognizing face...</string>
+    <string name="confirm">Confirm</string>
+    <string name="hide_car_list">Hide Car List</string>
+
+</resources>

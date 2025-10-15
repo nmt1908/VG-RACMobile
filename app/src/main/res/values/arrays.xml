@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="main_tabs">
+        <item>@string/employee_list</item>
+        <item>@string/infomation_vehicle</item>
+    </string-array>
+</resources>

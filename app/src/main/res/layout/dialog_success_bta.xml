@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgSuccess"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/baseline_check_circle_24"
+        android:contentDescription="Thành công"/>
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/tvSuccessTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/success"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:paddingBottom="6dp"/>
+
+    <!-- Nội dung -->
+    <TextView
+        android:id="@+id/tvSuccessMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infomation_save_sucessfully"
+        android:textSize="20dp"
+        android:textColor="#7A7A7A"
+        android:gravity="center"
+        android:paddingBottom="18dp"/>
+
+    <!-- Nút đóng -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSuccessClose"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/black"
+        android:layout_height="48dp"
+        android:text="@string/close"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+</LinearLayout>
